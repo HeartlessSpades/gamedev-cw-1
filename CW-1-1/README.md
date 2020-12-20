@@ -1,12 +1,18 @@
-<div dir=rtl>
-  
-#  تمرين - 1
+﻿using System;
 
-## تعريف المتغيرات
+namespace ConsoleAp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 15;
+            string superpower1 = "bubbles armor";
+            string superpower2 = "spongy sheild";
+            string characterName = "spongbob";
 
-1. عرف متغير characterName وأضف إليه قيمة اسم البطل
-2. عرف متغير speed, age, superPower1, superPower2 وأضف إليهم المعلومات
-3. استخدم Console.WriteLine لطباعةالنص بالأسفل
+            Console.WriteLine("Hello World! My name is {0} and i am {1} my superpower is {2} and of course {3} ", characterName, age, superpower1, superpower2);
+        }
+    }
 
-اسمي أحمد و قواي الخارقة هي الدرع الفولاذي و الرؤية الليلية . عمري 15 و سرعتي هي 1.65
-</div>
+}
